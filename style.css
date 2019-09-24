@@ -145,6 +145,7 @@ h1, h2, h3, h4, h5, h6{
 .intro{
     height: 565px;
     padding-top: 115px;
+    position: relative;
 
     background: #31344e url("assets/img/bg-intro.jpg") center no-repeat / cover;
 }
@@ -181,12 +182,46 @@ h1, h2, h3, h4, h5, h6{
     color: #f5c506;
 }
 
+.intro::before,
+.intro::after{
+    content: "\2039";
+    color: #fff;
+    font-size: 43px;
+    text-align: center;
+    display: block;
+    width: 33px;
+    height: 58px;
+    background-color: #c5a00b;
+
+    position: absolute;
+    top: 342px;
+    z-index: 15;
+}
+
+.intro::before{
+   left: 0;
+}
+
+.intro::after{
+    right: 0;
+    background-color: #f5c506; 
+    transform: rotate(180deg);
+
+}
+
 /*controls*/
 .controls{
     position: absolute;
     top: 30%;
     left: 43%;
     z-index: 5;
+}
+
+.controls--blog{
+    position: absolute;
+    top: 42%;
+    left: 46%;
+    z-index: 5; 
 }
 
 .play,
