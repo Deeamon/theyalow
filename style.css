@@ -60,6 +60,7 @@ h1, h2, h3, h4, h5, h6{
 .logo--footer{
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
   
 .logo__text{
@@ -124,6 +125,11 @@ h1, h2, h3, h4, h5, h6{
 
     padding: 11px 18px 11px 14px;
     border-right: 1px solid #dcb105;
+}
+
+.nav__link:hover{
+    background-color: #fbdb58;
+    color: #806808;
 }
 
 .nav__link:first-child{
@@ -199,6 +205,7 @@ h1, h2, h3, h4, h5, h6{
     position: absolute;
     top: 292px;
     z-index: 15;
+    cursor: pointer;
 }
 
 .intro::before{
@@ -218,6 +225,7 @@ h1, h2, h3, h4, h5, h6{
     top: 39%;
     left: 44%;
     z-index: 5;
+    cursor: pointer;
 }
 
 .controls--blog{
@@ -225,6 +233,7 @@ h1, h2, h3, h4, h5, h6{
     top: 37%;
     left: 46%;
     z-index: 5; 
+    cursor: pointer;
 }
 
 .play,
@@ -236,12 +245,14 @@ h1, h2, h3, h4, h5, h6{
     border-radius: 50%;
 
     position: relative;
+    cursor: pointer;
 }
 
 .play--panel{
     width: 27px;
     height: 27px;
     border-radius: 0px;
+    cursor: pointer;
 }
 
 .play-triangle{
@@ -255,6 +266,7 @@ h1, h2, h3, h4, h5, h6{
     border-top: 17px solid transparent;
     border-left: 19px solid #f5f4f2;
     border-bottom: 17px solid transparent;
+    cursor: pointer;
 }
 
 .play--panel .play-triangle{
@@ -262,7 +274,8 @@ h1, h2, h3, h4, h5, h6{
     left: 34%;
     border-top: 9px solid transparent;
     border-left: 11px solid #f5f4f2;
-    border-bottom: 9px solid transparent;
+    border-bottom: 9px solid transparent;\
+    cursor: pointer;
 }
 
 
@@ -271,6 +284,7 @@ h1, h2, h3, h4, h5, h6{
     bottom: 23px;
     left: 29px;
     z-index: 10;
+    cursor: pointer;
 
 }
 
@@ -281,6 +295,7 @@ h1, h2, h3, h4, h5, h6{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 
 .track{
@@ -288,6 +303,7 @@ h1, h2, h3, h4, h5, h6{
     width: 405px;
     border-top: 11px solid rgba(226, 208, 65, 0.62);
     z-index: 15;
+    cursor: pointer;
 }
 
 .track::before{
@@ -438,6 +454,7 @@ h1, h2, h3, h4, h5, h6{
     bottom: 13px;
     right: 16px;
     z-index: 1;
+    cursor: pointer;
 }
 
 .plus{
@@ -511,6 +528,7 @@ h1, h2, h3, h4, h5, h6{
     bottom: 34px;
     left: 22px;
     z-index: 1;
+    cursor: pointer;
 }
 
 .slider__item{
